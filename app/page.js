@@ -19,17 +19,17 @@ export default function Home() {
       </section>
       <div className='flex h-full w-screen'>
         {/* red statre */}
-        <div className='relative ml-[100px] flex gap-3 justify-around w-[60%] bg-red-500'>
+        <div className='relative ml-[100px] flex gap-3 justify-around w-[65%]'>
           <div className=' flex flex-col flex-wrap content-start'>
-            <div className=' ml-[10px] mr-[50px] flex gap-24 justify-around p-1 h-[30px] w-full bg-green-500'>
+            <div className=' ml-[10px] mr-[50px] flex gap-24 justify-around p-1 h-[30px] w-full'>
               <div className='cursor-pointer'>
-                <span className='text-white  uppercase font-bold '>About</span>
+                <span className='text-gray-600  uppercase font-bold '>About</span>
               </div>
               <div className='cursor-pointer'>
-                <span className='text-white  uppercase font-bold'>Instructor</span>
+                <span className='text-gray-600  uppercase font-bold'>Instructor</span>
               </div>
               <div className='cursor-pointer'>
-                <span className='text-white uppercase font-bold'>Reviews</span>
+                <span className='text-gray-600 uppercase font-bold'>Reviews</span>
               </div>
             </div>
             <div className=' ml-[-1px] w-32 h-[1px] border-b-[3px] border-purple-700' ></div>
@@ -50,7 +50,7 @@ export default function Home() {
                 &#10004; Learn to mange your relationships <br></br>
                 &#10004; Better communication <br></br>
                 &#10004; Time management <br></br>
-                &#10004; Forgiveness 
+                &#10004; Forgiveness
               </p>
               <h1 className='mt-4 text-2xl font-bold ' > Key topics covered</h1>
               <p className='w-[40vw] mt-2 text-gray-600'>
@@ -82,9 +82,21 @@ export default function Home() {
         </div>
         {/* red ends */}
 
-        <div className='relative top-[-40px] left-0 ml-[40px] mr-[100px] h-[50vh] w-[35%] bg-blue-500'>
-          <div></div>
-          <div></div>
+        <div className='flex flex-col relative top-[-40px] left-0 ml-[40px] mr-[100px] h-[45vh] w-[30%] bg-gray-200'>
+          <div>
+            <h2 className='ml-5 mt-4 text-xl font-medium'>Course fees</h2>
+            <h1 className='ml-5 mb-4 text-3xl font-bold font-'>&#8377;5,000</h1>
+            <h2 className=' ml-5 mb-2 font-medium text-xl'>What's included:</h2>
+            <p className='ml-5 text-[14px]'>&#128172; 5 on-demand video</p>
+            <p className='ml-5 text-[14px]'> &#128172; 2 livestream sessions</p>
+            <p className='ml-5 text-[14px] capitalize'>&#128172; Live Q&A sessions with Nityanand Charan Das </p>
+            <p className='ml-5 text-[14px]'>&#128172; An active whatsapp community</p>
+            {/* <button className='m-8 p-3   bg-purple-700' >Register Today</button> */}
+            <button className='mt-7 mb-2 ml-6 mr-6 p-3 bg-purple-800 rounded-full w-80 text-white'>Register Today</button>
+
+
+          </div>
+
         </div>
       </div>
 

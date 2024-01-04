@@ -5,7 +5,7 @@ export default function Home() {
     <main>
       <section>
         <div>
-          <div className='top-0 left-0 h-[60vh] w-screen bg-cover' style={{ backgroundImage: 'linear-gradient(rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5)), url("/imgs.webp")' }}>
+          <div className='top-0 left-0 h-[50vh] w-screen bg-cover' style={{ backgroundImage: 'linear-gradient(rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5)), url("/imgs.webp")' }}>
             <div className='flex flex-col items-start justify-end h-full w-50% text-wrap'>
               <h3 className='text-white ml-[100px]'>NITYANAND CHARAN DAS</h3>
               <h1 className='text-white ml-[100px] mb-6 text-3xl text-wrap font-bold'>
@@ -17,33 +17,77 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <div className='flex h-screen w-screen'>
+      <div className='flex h-full w-screen'>
         {/* red statre */}
-        <div className=' ml-[100px] flex gap-3 justify-around w-[60vw] bg-red-500'>
+        <div className='relative ml-[100px] flex gap-3 justify-around w-[60%] bg-red-500'>
           <div className=' flex flex-col flex-wrap content-start'>
             <div className=' ml-[10px] mr-[50px] flex gap-24 justify-around p-1 h-[30px] w-full bg-green-500'>
-          <div className='cursor-pointer'>
+              <div className='cursor-pointer'>
                 <span className='text-white  uppercase font-bold '>About</span>
-          </div>
-          <div className='cursor-pointer'>
+              </div>
+              <div className='cursor-pointer'>
                 <span className='text-white  uppercase font-bold'>Instructor</span>
+              </div>
+              <div className='cursor-pointer'>
+                <span className='text-white uppercase font-bold'>Reviews</span>
+              </div>
+            </div>
+            <div className=' ml-[-1px] w-32 h-[1px] border-b-[3px] border-purple-700' ></div>
+            {/* h1 aboy cos */}
+            <div>
+              <h1 className='mt-4 text-3xl font-bold ' >About The Course</h1>
+              <p className='w-[40vw] mt-2 text-gray-600'>
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, val illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+              </p>
+              <p className='w-[40vw] mt-2 text-gray-600'>
+                Sed ut perspiciatis unde omnis iste natus error sit valuptatern accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab llo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+              </p>
+              <p className='w-[40vw] mt-2 text-gray-600'>
+                Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet utet voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+              </p>
+              <h1 className='mt-4 text-2xl font-bold ' > What to expect from the Course</h1>
+              <p className='w-[40vw] mt-2 text-gray-600'>
+                &#10004; Learn to mange your relationships <br></br>
+                &#10004; Better communication <br></br>
+                &#10004; Time management <br></br>
+                &#10004; Forgiveness 
+              </p>
+              <h1 className='mt-4 text-2xl font-bold ' > Key topics covered</h1>
+              <p className='w-[40vw] mt-2 text-gray-600'>
+                Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis valuptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+              </p>
+              <p className='w-[40vw] mt-2 text-gray-600'>
+                &#10004;
+                Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis valuptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+              </p>
+              <div className='flex  w-[40vw]'>
+                <div className='pr-6 pt-1'>
+                  <p className='pb-12 text-gray-600'>&#10004; <br></br></p>
+                  <p className='pb-12 text-gray-600'>&#10004; <br></br></p>
+                  <p className='pb-12 text-gray-600'>&#10004; <br></br></p>
+                  <p className='pb-12 text-gray-600'>&#10004; <br></br></p>
+                </div>
+                <div className='pt-1'>
+                  <p className=' text-wrap text-gray-600' ><span className='font-bold text-black'>10 written and audio sessions</span>  guide you in decoding the language of numbers so that you can easily receive their signs and messages.</p>
+                  <p className='text-wrap text-gray-600'><span className='font-bold text-black'>Intuitive exercises and homework</span>  walk you through the energies and values of numbers and number sequences so you can become your awn authority.</p>
+                  <p className='text-wrap text-gray-600'><span className='font-bold text-black'>A handy reference</span>  to numerical meanings so you can uncover your soul's gifts, challenges, lessons, and purpose- and receive spiritual guidance along your path.</p>
+                  <p className='text-wrap text-gray-600'><span className='font-bold text-black'>Expert techniques</span>  for manifestation offer simple ways to use numtbers to co-create with the universe.</p>
+
+                </div>
+
+              </div>
+            </div>
           </div>
-          <div className='cursor-pointer'>
-            <span className='text-white uppercase font-bold'>Reviews</span>
-          </div>
-          </div>
-            <div className=' ml-[-1px] w-32 h-1 border-b-4 border-purple-700' ></div>
-          </div>
-          
+
         </div>
-        
         {/* red ends */}
-        <div className='relative top-[-40px] left-0 ml-[40px] mr-[100px] h-[50vh] w-[35vw] bg-blue-500'>
-        <div></div>
-        <div></div>
-       </div>
+
+        <div className='relative top-[-40px] left-0 ml-[40px] mr-[100px] h-[50vh] w-[35%] bg-blue-500'>
+          <div></div>
+          <div></div>
+        </div>
       </div>
-     
+
     </main>
   )
 }
